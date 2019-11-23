@@ -18,4 +18,5 @@ quotations.forEach((quotation, index) => {
     row.insertCell(1).innerHTML = `${quotation.qty}`
     row.insertCell(2).innerHTML = `${quotation.price}`
     row.insertCell(3).innerHTML = `${quotation.price * quotation.qty}`
+    
 })
